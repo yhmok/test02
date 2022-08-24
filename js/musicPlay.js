@@ -11,7 +11,7 @@ for(let i=0; i<len; i++){
     let pic = lists[i].querySelector('.pic');
 
     lists[i].style.transform = 'rotate('+(45*i)+'deg) translateY(-100vh)';
-    pic.style.backgroundImage = `url(../music/member${i+1}.jpg)`;
+    pic.style.backgroundImage = `url(music/member${i+1}.jpg)`;
 
     //play 버튼 click시
     const pause = lists[i].querySelector(".pause");
